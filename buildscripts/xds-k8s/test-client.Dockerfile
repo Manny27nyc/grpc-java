@@ -1,5 +1,5 @@
 # Build runtime image.
-FROM openjdk:11.0.9.1-jdk
+FROM openjdk:11.0.15-jdk
 
 ENV APP_DIR=/usr/src/app
 WORKDIR $APP_DIR
